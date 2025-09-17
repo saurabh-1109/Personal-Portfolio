@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio website of Saurabh Jha - Web Developer, Python Enthusiast, and Data Analyst. Explore my projects and skills.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+<!-- Home section -->
+    <section id="Home">
+    <nav>
+            <h3>Portfolio</h3>
+                <a href="#Home">Home</a>
+                <a href="#id_Skills">Skills</a>
+                <a href="#Projects">Projects</a>
+                <a href="#About">About</a>
+        </nav>
+    <!-- Home Section  -->
+  <header>
+    <div class="script">
+      <!-- This is where Typed.js will type -->
+      <h1 id="typewriter"></h1>
+    </div>
+
+    <div class="img-box">
+      <img src="dv1.webp" alt="Profile Picture">
+    </div>
+  </header>
+    </section>
+<!-- Add Typed.js library -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  var typed = new Typed("#typewriter", {
+    strings: ["Hello, I'm Saurabh Jha , Welcome to My Portfolio, Explore My Projects and Skills. <br> <a href='Resume_Saurabh_Professional.pdf' target='_blank'>Click here to Download Resume</a>"],
+    typeSpeed: 50,   // typing speed
+    contentType: 'html', // allows HTML tags
+    loop: false      // loop the typing animation
+  });
+</script>
+<!--skill section -->
+    <section id="id_Skills">
+        <h2>Skills</h2>
+    <div class="skills">
+
+        <div class="skills1">
+            <ul>
+                <h3>Progamming</h3>
+                <li><img src="JavaScript.webp"alt="java_logo"> JavaScript</li>
+                <li><img src="python.jpg"alt="python_logo"> Python</li>
+                <li><img src="C++-PNG-Clipart.png"alt="c++_logo"> C++</li>
+                <li><img src="C_Logo.png"alt="c_logo"> C</li>
+                <li><img src="SQL.jpg"alt="sql logo"> SQL</li>
+            </ul>
+        </div>
+        <div class="skills1">
+            <ul>
+                <h3>Data Tool</h3>
+                <li><img src="Excel.png"alt="excel logo"> MS Excel</li>
+                <li><img src="PowerBI.png"alt="bi logo"> Power BI</li>
+                <li><img src="Tableau.png"alt="Tableau logo "> Tableau</li>    
+            </ul>
+        </div>
+        <div class="skills1">
+            <ul>
+                <h3>Web Development</h3>
+                <li><img src="logo_html.png"alt="html logo"> HTML</li>
+                <li><img src="css3-logo-png-transparent.png"alt="css logo"> CSS</li>
+                <li><img src="Bootstrap.png"alt="boot logo"> Bootstrap</li>
+                <li><img src="React.jpg"alt="react logo">React</li>
+                <li><img src="Flask.png"alt="flaskclogo"> Flask</li>
+                <li><img src="tkinter.jpg"alt="tk logo"> Tkinter</li>
+            </ul>
+        </div>
+        <div class="skills1">
+            <ul>
+                <h3>Libraries</h3>
+                <li><img src="Numpy.jpg"alt="numpy logo"> Numpy</li>
+                <li><img src="Pandas.png"alt="pandas logo"> Pandas</li>
+                <li><img src="Seaborn.png"alt="seaborn logo"> Seaborn</li>
+                <li><img src="sicikitlearn.png"alt="sklearn logo"> sickit-learn</li>
+                <li><img src="MatplotLib.png"alt="matplotlib logo"> MatplotLib</li>
+            </ul>
+        </div>
+        <div class="skills1">
+            <ul>
+                <h3>Core Concept</h3>
+                <li><img src="DA.png"alt="data cleaning logo"> Data Cleaning</li>
+                <li><img src="DSA.jpg"alt="data structure logo"> Data Structures</li>
+                <li><img src="DA.png"alt="data transformation logo"> Data Transformation</li>
+                <li><img src="DA.png"alt="EDA logo"> EDA</li>
+                <li><img src="DA.png"alt="Data modelling logo"> Data Modeling</li>
+                <li><img src="statistics.png"alt="statistics logo "> Statistics</li>
+            </ul>
+        </div>
+    </div>
+        
+           
+    </section>
+<!--project section -->
+    <section id="Projects">
+        <h2>Projects</h2>
+    <div class="projects-box">
+        <!-- Portfolio -->
+        <div class="project">   
+            <h3>Project 1: Portfolio Website</h3>
+            <p>A personal portfolio website to showcase my skills and projects.</p>
+            <button>
+                <a href="Port.html">View Project</a>
+            </button>
+        </div>
+
+        <!-- car rental clone -->
+        <div class="project">
+            <h3>Project 2: Car Rental Clone</h3>
+            <p>A clone of a car rental website with basic functionalities.</p>
+            <button>
+                <a href="clg_project/car_rental_index.html">View Project</a>
+            </button>
+        </div>
+        
+        <!-- Login -->
+        <div class="project">
+            <h3>Project 3: Login Page</h3>
+            <p>A simple login page with form validation.</p>
+            <button>
+                <a href="login/login.html"target="_blank">View Project</a>
+            </button>
+        </div>
+        <!-- Employee Management system -->
+        <div class="project">
+            <h3>Project 4: Employee Management System</h3>
+            <p>A basic employee management system with CRUD operations.</p>
+            <button>
+                <a href="https://github.com/saurabh-1109/Employee_Management_system"target="_blank">View Project</a>
+            </button>
+        </div>
+        <!-- Sales Dashboard -->
+        <div class="project">
+            <h3>Project 5: Sales Dashboard</h3>
+            <p>A sales dashboard created using Power BI to visualize sales data.</p>
+            <button>
+                <a href="https://github.com/saurabh-1109/Power_Bi"target="_blank">View Project</a>
+            </button>
+        </div>
+        <!-- Python Project : -->
+        <div class="project">
+            <h3>Project 6: Python Projects</h3>
+            <p>Weather App , Guess Number , Rock Paper Scissor.</p>
+            <button>
+                <a href="https://github.com/saurabh-1109/Python_Projects"target="_blank">View Project</a>
+            </button>   
+        </div>
+        <!-- Notepad -->
+        <div class="project">
+            <h3>Project 7: Notepad</h3>
+            <p>A simple notepad application built using Python's Tkinter library.</p>
+            <button>
+                <a href="https://github.com/saurabh-1109/Python_Projects/blob/main/Notepad_Project.py"target="_blank">View Project</a>
+            </button>
+        </div>
+        <!-- Rock Paper scissor game-->
+        <div class="project">
+            <h3>Project 8: Rock Paper Scissor Game</h3>
+            <p>A simple rock-paper-scissor game implemented by HTML/CSS/JS.</p>
+            <button>
+                <a href="rock-paper game/rock.html"target="_blank">View Project</a>
+            </button>
+        </div>
+    </div>
+    </section>
+<!--about section -->
+    <section id="About">
+        <h2>About Me</h2><br>
+        <p>Hello! I'm Saurabh Jha, a passionate developer with skills in web development, programming, and data analysis. I love creating efficient and user-friendly applications. In my free time, I enjoy learning new technologies and working on personal projects.</p>
+        <br>
+        <h4>Education</h4>
+        <p>Course : Bachelor of Computer Application (BCA) <br>college: Smt. P.D. Hinduja Institute of Management Studies, Mumbai (2023– 2026)</p>
+        <p>Languages : English, Hindi, Marathi, Maithili </p>
+        <p>Sgpa<ul><li>1st year : 7.83%</li><li>2st year : 7.44%</li></ul></p><br>
+        
+    </section>
+<!--footer section -->
+        <footer>
+            <div class="footer-container">
+                <h3>Connect with Me</h3>
+                <div class="footer-links">
+                    <a href="mailto:saurabhjha8355@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://github.com/saurabh-1109" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/saurabh-kumar-9b7240233/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="Resume_Saurabh_Professional.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i></a>
+                </div>
+                <p>© 2025 Saurabh Jha | All Rights Reserved</p>
+            </div>
+        </footer>
+
+</body>     
+</html>

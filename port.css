@@ -1,0 +1,252 @@
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background:linear-gradient(to right, #6dd5fa, #2980b9);
+  color: #000;
+  line-height: 1.6;
+}
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+nav h3 {
+  flex: 1;
+  font-size: 24px;
+  font-weight: 700;
+  color: #4a90e2; /* highlight title */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+}
+
+/* Home Section */
+#Home{
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+}
+
+#Home header {
+  display: flex;              /* Put items side by side */
+  justify-content: space-between; /* Space between text & image */
+  align-items: center;        /* Align vertically center */
+  padding: 50px;
+  height: 100vh;              /* Full screen height */
+  box-sizing: border-box;
+}
+
+/* Style for text box */
+#Home .script {
+  flex: 1;                    /* Take half space */
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* Style for image box */
+#Home .img-box {
+  flex: 1;                    /* Take half space */
+  display: flex;
+  justify-content: center;
+}
+
+#Home .img-box img {
+  max-width: 80%;             /* Keep image responsive */
+  height: auto;
+}
+#typewriter a {
+  color: inherit;          /* Same color as surrounding text */
+  text-decoration: none;   /* Remove underline */
+  font-weight: inherit;    /* Keep same weight as text */
+}
+
+/* Skill Secction */
+#id_Skills{
+   background: #f5f5f5;
+   color: #000000;
+   justify-content: center; /* Horizontally centers the logos */
+   align-items: center; /* Vertically centers the logos */
+   gap: 20px;
+   padding: 20px;
+   height:auto;
+   width:100%;
+}
+#id_Skills h2{
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#id_Skills img{
+  height: 20px;
+  width: 20px;
+  margin-top: 15px;
+}
+
+.skills{
+
+  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  /* border: 2px solid black; */
+  width: 100%;
+}
+
+.skills1{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  /* border: 2px solid black; */
+  width:19.5%;
+}
+
+.skills1 :hover{
+  transform: scale(1.1);
+  transition: transform 0.3s;
+
+}
+/* Project Section */
+
+#Projects{
+  background: linear-gradient(to right, #4a90e2, #145da0);
+  color: #ffffff;
+  height:auto;
+  width: 100%;
+  padding: 50px;
+  color: #000000;
+}
+
+#Projects h2{
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.projects-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Allows wrapping to the next line */
+}
+
+.project{
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  color: #000;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s;}
+
+  .projects-box button{
+  background-color: #4a90e2;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.projects-box a{
+  text-decoration: none;
+   color: white;
+}
+
+.project:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.project button:hover {
+  background-color:#145da0;;
+}
+
+
+/* About */
+#About{
+  height:auto;
+  width: 100%;
+  padding: 50px;
+  background: linear-gradient(to right, #8e44ad, #6a1b9a);
+  color: #ffffff;
+  
+}
+
+/* footer css */
+footer {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer-container h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #4a90e2;
+}
+
+.footer-links {
+  margin-bottom: 15px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: #ffffff;
+  font-size: 22px;
+  transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #4a90e2;
+  transform: scale(1.2);
+}
+
+footer p {
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 10px;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .skills1 {
+    width: 45%;
+  }
+}
+@media (max-width: 480px) {
+  .skills1 {
+    width: 100%;
+  }
+}
